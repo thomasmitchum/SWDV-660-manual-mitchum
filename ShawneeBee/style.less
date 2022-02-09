@@ -1,0 +1,142 @@
+@primary1: #fcfce8;
+@primary2: #B8860B;
+@primary3: rgb(18, 0, 51);
+
+
+.container {
+    max-width: 960px;
+}
+
+.site-header {
+    
+    background-color: @primary2;
+
+    a {
+        float: left;
+        padding: 12px;
+        color: @primary1;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    a:hover {
+        color: @primary3;
+    }
+}
+ 
+.bodytext{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+.h1text{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.h2text{
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.generalText{
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Cormorant Garamond', serif;
+}
+.generalButton{
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px;
+    color: @primary3 ;
+    border-color: @primary3;
+    font-family: 'Amatic SC', cursive;
+    border-style: solid;
+
+}
+
+.navButton {
+    background-color:@primary3 ;
+    .generalButton();
+}
+
+.inputLabel {
+    font-size: 14px;
+    font-weight: bold;
+}
+.warning {
+    background-color: @primary1;
+    font-weight: bold;
+    color:@primary3;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.danger {
+    background-color: @primary2;
+    font-weight: bold;
+    color: @primary1;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.success {
+    background-color: @primary3;
+    font-weight: bold;
+    color: @primary1;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Amatic SC', cursive;
+}
+
+body {
+    color: @primary3;
+    background-color: @primary1;
+    .bodytext();
+}
+
+h1 {
+    .h1text();
+}
+
+h2 {
+    .h2text();
+}
+
+p h3 {
+    .generalText();
+    
+}
+
+button {
+    background-color: @primary2 ;
+    .generalButton();
+}
+
+input.inputField {
+    padding: 5px;
+    border: 1px solid @primary2;
+}
+
+div.box {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+footer {
+    border-top: 1px solid @primary3;  
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+hr{
+    color: @primary3;
+}

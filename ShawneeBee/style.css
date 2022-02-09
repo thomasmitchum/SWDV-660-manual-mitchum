@@ -1,0 +1,141 @@
+.container {
+  max-width: 960px;
+}
+.site-header {
+  background-color: #B8860B;
+}
+.site-header a {
+  float: left;
+  padding: 12px;
+  color: #fcfce8;
+  text-decoration: none;
+  font-size: 17px;
+}
+.site-header a:hover {
+  color: #120033;
+}
+.bodytext {
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
+.h1text {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.h2text {
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+}
+.generalText {
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cormorant Garamond', serif;
+}
+.generalButton {
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 10px;
+  color: #120033;
+  border-color: #120033;
+  font-family: 'Amatic SC', cursive;
+  border-style: solid;
+}
+.navButton {
+  background-color: #120033;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 10px;
+  color: #120033;
+  border-color: #120033;
+  font-family: 'Amatic SC', cursive;
+  border-style: solid;
+}
+.inputLabel {
+  font-size: 14px;
+  font-weight: bold;
+}
+.warning {
+  background-color: #fcfce8;
+  font-weight: bold;
+  color: #120033;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Amatic SC', cursive;
+}
+.danger {
+  background-color: #B8860B;
+  font-weight: bold;
+  color: #fcfce8;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Amatic SC', cursive;
+}
+.success {
+  background-color: #120033;
+  font-weight: bold;
+  color: #fcfce8;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Amatic SC', cursive;
+}
+body {
+  color: #120033;
+  background-color: #fcfce8;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+h2 {
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+}
+p h3 {
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cormorant Garamond', serif;
+}
+button {
+  background-color: #B8860B;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 10px;
+  color: #120033;
+  border-color: #120033;
+  font-family: 'Amatic SC', cursive;
+  border-style: solid;
+}
+button a:hover {
+  background-color: #120033;
+  color: #B8860B;
+}
+input.inputField {
+  padding: 5px;
+  border: 1px solid #B8860B;
+}
+div.box {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+footer {
+  border-top: 1px solid #120033;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+hr {
+  color: #120033;
+}
